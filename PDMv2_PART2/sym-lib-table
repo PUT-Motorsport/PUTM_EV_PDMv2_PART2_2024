@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "UMPS-08-X-X-V-S-W")(type "KiCad")(uri "${KIPRJMOD}/Models/UMPS-08-05.5-G-V-S-W-TR/UMPS-08-X-X-V-S-W.kicad_sym")(options "")(descr ""))
+)
