@@ -2761,6 +2761,17 @@
 		)
 		(uuid "6e00dc0e-e8cc-4306-a846-8f0fa1dbf136")
 	)
+	(label "SDC{slash}ASMS"
+		(at 148.59 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "70776b86-f05b-4289-bf8e-1afc29d5d16c")
+	)
 	(label "FAN2"
 		(at 148.59 63.5 180)
 		(fields_autoplaced yes)
@@ -2837,17 +2848,6 @@
 			(justify right bottom)
 		)
 		(uuid "8eda1faa-1185-4d62-bc8b-16a9481e16de")
-	)
-	(label "DASH"
-		(at 148.59 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8f599dc4-49e5-45f6-8c8c-fd93e9122265")
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
 		(at 148.59 121.92 180)
@@ -3128,7 +3128,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SOSU/SOSU-S-A0010748667/SOSU-S-A0010748667-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
 			(at 156.21 86.36 0)
 			(effects
 				(font
@@ -3308,7 +3308,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://kinetictest.samtec.com/partnumber/UMPS-08-05.5-G-V-S-W-TR"
 			(at 71.12 110.49 0)
 			(effects
 				(font
@@ -3435,7 +3435,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://kinetictest.samtec.com/partnumber/UMPS-08-05.5-G-V-S-W-TR"
 			(at 71.12 69.85 0)
 			(effects
 				(font
