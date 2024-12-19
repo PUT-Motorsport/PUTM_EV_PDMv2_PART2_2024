@@ -16,20 +16,22 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 50.8 0)
+			(property "Reference" "J1"
+				(at -6.35 -1.2701 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Value" "TVP00WCI17-02P "
-				(at 0 -50.8 0)
+				(at -6.35 1.2699 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
 			(property "Footprint" "Connector:tvp00wci17-02p"
@@ -41,7 +43,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SOSU/SOSU-S-A0010748667/SOSU-S-A0010748667-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
 				(at 0 0 0)
 				(effects
 					(font
@@ -987,7 +989,7 @@
 						(type outline)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 5.08 48.26 180)
 					(length 3.81)
 					(name "Pin_1"
@@ -1943,10 +1945,6 @@
 			)
 		)
 	)
-	(no_connect
-		(at 148.59 134.62)
-		(uuid "04814b11-4f26-4a57-9966-48f6416e9487")
-	)
 	(wire
 		(pts
 			(xy 81.28 100.33) (xy 82.55 100.33)
@@ -1959,7 +1957,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 40.64) (xy 151.13 40.64)
+			(xy 157.48 39.37) (xy 160.02 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1969,7 +1967,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 60.96) (xy 151.13 60.96)
+			(xy 157.48 59.69) (xy 160.02 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1979,7 +1977,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 93.98) (xy 151.13 93.98)
+			(xy 157.48 92.71) (xy 160.02 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1989,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 106.68) (xy 151.13 106.68)
+			(xy 157.48 105.41) (xy 160.02 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1999,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 73.66) (xy 151.13 73.66)
+			(xy 157.48 72.39) (xy 160.02 72.39)
 		)
 		(stroke
 			(width 0)
@@ -2019,17 +2017,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 134.62) (xy 151.13 134.62)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23fb19c0-07fe-4ddc-bd36-c5f6252658ca")
-	)
-	(wire
-		(pts
-			(xy 148.59 124.46) (xy 151.13 124.46)
+			(xy 157.48 123.19) (xy 160.02 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2039,7 +2027,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 114.3) (xy 151.13 114.3)
+			(xy 157.48 113.03) (xy 160.02 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2049,7 +2037,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 55.88) (xy 151.13 55.88)
+			(xy 157.48 54.61) (xy 160.02 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2059,7 +2047,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 121.92) (xy 151.13 121.92)
+			(xy 157.48 120.65) (xy 160.02 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2079,7 +2067,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 86.36) (xy 151.13 86.36)
+			(xy 157.48 85.09) (xy 160.02 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2089,7 +2077,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 119.38) (xy 151.13 119.38)
+			(xy 157.48 118.11) (xy 160.02 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2099,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 38.1) (xy 151.13 38.1)
+			(xy 157.48 36.83) (xy 160.02 36.83)
 		)
 		(stroke
 			(width 0)
@@ -2109,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 129.54) (xy 151.13 129.54)
+			(xy 157.48 128.27) (xy 160.02 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2119,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 76.2) (xy 151.13 76.2)
+			(xy 157.48 74.93) (xy 160.02 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2139,7 +2127,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 68.58) (xy 151.13 68.58)
+			(xy 157.48 67.31) (xy 160.02 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2149,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 48.26) (xy 151.13 48.26)
+			(xy 157.48 46.99) (xy 160.02 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2159,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 91.44) (xy 151.13 91.44)
+			(xy 157.48 90.17) (xy 160.02 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2209,7 +2197,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 78.74) (xy 151.13 78.74)
+			(xy 157.48 77.47) (xy 160.02 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2229,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 96.52) (xy 151.13 96.52)
+			(xy 157.48 95.25) (xy 160.02 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2239,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 116.84) (xy 151.13 116.84)
+			(xy 157.48 115.57) (xy 160.02 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2249,7 +2237,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 151.13 83.82)
+			(xy 157.48 82.55) (xy 160.02 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2269,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 50.8) (xy 151.13 50.8)
+			(xy 157.48 49.53) (xy 160.02 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2289,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 88.9) (xy 151.13 88.9)
+			(xy 157.48 87.63) (xy 160.02 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2299,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 101.6) (xy 151.13 101.6)
+			(xy 157.48 100.33) (xy 160.02 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2319,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 45.72) (xy 151.13 45.72)
+			(xy 157.48 44.45) (xy 160.02 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2329,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 81.28) (xy 151.13 81.28)
+			(xy 157.48 80.01) (xy 160.02 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2339,7 +2327,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 127) (xy 151.13 127)
+			(xy 157.48 125.73) (xy 160.02 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2349,7 +2337,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 66.04) (xy 151.13 66.04)
+			(xy 157.48 64.77) (xy 160.02 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2359,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 104.14) (xy 151.13 104.14)
+			(xy 157.48 102.87) (xy 160.02 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2369,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 109.22) (xy 151.13 109.22)
+			(xy 157.48 107.95) (xy 160.02 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2379,7 +2367,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 63.5) (xy 151.13 63.5)
+			(xy 157.48 62.23) (xy 160.02 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2389,7 +2377,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 71.12) (xy 151.13 71.12)
+			(xy 157.48 69.85) (xy 160.02 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2399,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 43.18) (xy 151.13 43.18)
+			(xy 157.48 41.91) (xy 160.02 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2419,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 132.08) (xy 151.13 132.08)
+			(xy 157.48 130.81) (xy 160.02 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2429,7 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 53.34) (xy 151.13 53.34)
+			(xy 157.48 52.07) (xy 160.02 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2459,7 +2447,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 58.42) (xy 151.13 58.42)
+			(xy 157.48 57.15) (xy 160.02 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2479,7 +2467,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 99.06) (xy 151.13 99.06)
+			(xy 157.48 97.79) (xy 160.02 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2489,7 +2477,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 111.76) (xy 151.13 111.76)
+			(xy 157.48 110.49) (xy 160.02 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2497,8 +2485,8 @@
 		)
 		(uuid "fefdba62-d7ba-4abe-a161-6adc496360a6")
 	)
-	(label "PC3"
-		(at 148.59 96.52 180)
+	(label "DASH"
+		(at 157.48 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2506,29 +2494,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "02668216-b800-4d1d-961d-67f8b1ae5299")
-	)
-	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 148.59 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0403c939-1959-411f-83f6-1240d10e294d")
-	)
-	(label "PC4"
-		(at 148.59 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "068b8451-78dd-4f42-9b7b-7999f897b1d5")
+		(uuid "03364560-f530-4dee-9e64-de0baf489ef5")
 	)
 	(label "PC4"
 		(at 82.55 69.85 0)
@@ -2552,8 +2518,8 @@
 		)
 		(uuid "10d1c6a9-9a22-44b2-9461-0eda2e97c6e4")
 	)
-	(label "INVERTER 2"
-		(at 148.59 38.1 180)
+	(label "FBOX"
+		(at 157.48 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2561,10 +2527,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "23b4401c-ef5d-4029-b78f-829685d2501c")
+		(uuid "1109b0d6-0a12-4720-8275-f0b5a96ebf41")
 	)
-	(label "DASH"
-		(at 148.59 109.22 180)
+	(label "TSAL{slash}HV"
+		(at 157.48 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2572,7 +2538,73 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "311bc33f-1d3b-4b65-915a-5d4b5e98d96a")
+		(uuid "11ed5f87-db96-4364-9839-9bac15f817d9")
+	)
+	(label "SDC{slash}ASMS"
+		(at 157.48 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1764f43d-869f-4be2-b2c8-205462a7cd0b")
+	)
+	(label "BRAKE{slash}IR{slash}AIR"
+		(at 157.48 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "204e5ef9-c7ef-46e2-8e39-de15cacafc30")
+	)
+	(label "PC1"
+		(at 157.48 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "21857a52-0a3f-49bb-8643-9002000a67ef")
+	)
+	(label "PUMP1"
+		(at 157.48 92.71 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2580f0c1-66d8-4b7f-a6cd-119635121c15")
+	)
+	(label "PC4"
+		(at 157.48 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "289e9cee-960d-4829-9475-81b6d0b652f0")
+	)
+	(label "INVERTER 2"
+		(at 157.48 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b20857c-ad45-4ac3-888f-b27e242cb8c4")
 	)
 	(label "PUMP2"
 		(at 82.55 62.23 0)
@@ -2585,8 +2617,8 @@
 		)
 		(uuid "3120c068-50d8-42d7-b4c9-70e8fd819cd2")
 	)
-	(label "PUMP1"
-		(at 148.59 73.66 180)
+	(label "PC1"
+		(at 157.48 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2594,10 +2626,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "318b8f88-ad22-4d4b-b5fc-e1d1c1f0a7ef")
+		(uuid "3392ce08-dfa5-4620-ab27-10aef02a4ba7")
 	)
-	(label "PC4"
-		(at 148.59 88.9 180)
+	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
+		(at 157.48 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2605,7 +2637,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "383f30a2-b71b-4c97-b679-c0c8a327c712")
+		(uuid "359c5156-2d3c-41d2-84e5-d3647a53f16f")
+	)
+	(label "FBOX"
+		(at 157.48 36.83 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "35e85356-1b80-4012-a196-b1720306e1ba")
+	)
+	(label "FAN2"
+		(at 157.48 105.41 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "36aab0d1-5843-408a-9d94-47c3728ad2e8")
 	)
 	(label "INVERTER 2"
 		(at 82.55 110.49 0)
@@ -2618,8 +2672,8 @@
 		)
 		(uuid "3981bd66-6fab-4c7a-9080-65ccb95ec178")
 	)
-	(label "INVERTER 1"
-		(at 148.59 40.64 180)
+	(label "PC4"
+		(at 157.48 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2627,10 +2681,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4ab3244a-4b09-47e0-9445-4e75812dad7e")
+		(uuid "3cf5a363-21f5-4e3d-9738-7d86b7e22c22")
 	)
-	(label "PUMP1"
-		(at 148.59 78.74 180)
+	(label "FAN1"
+		(at 157.48 85.09 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2638,7 +2692,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4b54c6ca-ee27-4654-8116-72dbf1497576")
+		(uuid "3f3e978f-85e9-4bb0-8599-c2031ebf2e98")
+	)
+	(label "INVERTER 2"
+		(at 157.48 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "41791d1a-1391-4c71-ac56-6923ce53c3aa")
 	)
 	(label "SDC{slash}ASMS"
 		(at 82.55 102.87 0)
@@ -2651,8 +2716,8 @@
 		)
 		(uuid "50f42d10-ac56-4f22-8ce8-6d80cc476dce")
 	)
-	(label "PC3"
-		(at 148.59 93.98 180)
+	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
+		(at 157.48 115.57 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2660,18 +2725,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "542dd136-f227-4396-9325-7fbf721c4685")
-	)
-	(label "INVERTER 2"
-		(at 148.59 43.18 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "58aeda63-90da-41c1-b36d-2d0e45ca3539")
+		(uuid "54038244-0a3b-4475-a668-1add4579c411")
 	)
 	(label "INVERTER 1"
 		(at 82.55 113.03 0)
@@ -2695,8 +2749,8 @@
 		)
 		(uuid "5f61e4ec-19f8-4cc1-82ed-333de77bb11a")
 	)
-	(label "FBOX"
-		(at 148.59 129.54 180)
+	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
+		(at 157.48 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2704,10 +2758,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "608de32b-d99b-46a3-92ef-671fe2e1137e")
+		(uuid "618fc229-f952-4e86-9500-e3e5c7688ad6")
 	)
-	(label "BRAKE{slash}IR{slash}AIR"
-		(at 148.59 124.46 180)
+	(label "INVERTER 1"
+		(at 157.48 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2715,10 +2769,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "64c09752-2c4a-473f-9d54-08b626793c99")
+		(uuid "6273a04d-02e3-4b03-baba-2cdb0d680a20")
 	)
-	(label "PC4"
-		(at 148.59 86.36 180)
+	(label "PC2"
+		(at 157.48 69.85 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2726,7 +2780,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "66b08367-54b8-42c8-8b84-4cfd15a27518")
+		(uuid "6824eaab-59fc-40ca-93c9-8903cb9c12b4")
 	)
 	(label "PC1"
 		(at 82.55 77.47 0)
@@ -2739,8 +2793,30 @@
 		)
 		(uuid "6d5ebd2e-c461-4376-a612-b6b361891a7b")
 	)
+	(label "PC3"
+		(at 157.48 74.93 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "719c9787-a852-40a2-bbfd-f258e11b3420")
+	)
+	(label "PC2"
+		(at 157.48 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7218e2cb-967f-4726-b22a-fdfaa6fa630f")
+	)
 	(label "FAN1"
-		(at 148.59 81.28 180)
+		(at 157.48 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2748,51 +2824,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6db98173-7191-47a9-97ad-43860e8b250e")
-	)
-	(label "PC1"
-		(at 148.59 106.68 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6e00dc0e-e8cc-4306-a846-8f0fa1dbf136")
-	)
-	(label "SDC{slash}ASMS"
-		(at 148.59 114.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70776b86-f05b-4289-bf8e-1afc29d5d16c")
-	)
-	(label "FAN2"
-		(at 148.59 63.5 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "74d9be85-cfda-48f9-bfbf-79a17cc237b8")
-	)
-	(label "TSAL{slash}HV"
-		(at 148.59 58.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "79992a96-27bc-42d5-91b0-29d1d67d5134")
+		(uuid "7990a593-74a8-48c2-aa1a-9999660768b9")
 	)
 	(label "PC3"
 		(at 82.55 72.39 0)
@@ -2805,17 +2837,6 @@
 		)
 		(uuid "79a3f1f2-ee08-4e07-8e18-09f7909d5e24")
 	)
-	(label "SDC{slash}ASMS"
-		(at 148.59 116.84 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7dd42ccd-842e-4179-a4cb-34b93ae72580")
-	)
 	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
 		(at 82.55 115.57 0)
 		(fields_autoplaced yes)
@@ -2827,19 +2848,8 @@
 		)
 		(uuid "7e4d37ee-2e5c-4008-8130-5654df5d5ee1")
 	)
-	(label "FAN1"
-		(at 148.59 83.82 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d031a90-9173-492f-aef1-ce7c2baf78c0")
-	)
 	(label "TSAL{slash}HV"
-		(at 148.59 55.88 180)
+		(at 157.48 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2847,10 +2857,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "8eda1faa-1185-4d62-bc8b-16a9481e16de")
+		(uuid "879d1e14-1fc8-4606-a7ba-079c08423c91")
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
-		(at 148.59 121.92 180)
+		(at 157.48 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2858,10 +2868,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9143063a-a2be-4159-80fd-78d9d9c6c55b")
+		(uuid "8995e977-bfd1-4713-9a23-e1d0a7f7c9f8")
 	)
-	(label "FAN2"
-		(at 148.59 60.96 180)
+	(label "PUMP2"
+		(at 157.48 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2869,29 +2879,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9520f7aa-35d2-47a0-b6f9-d4d044289899")
-	)
-	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 148.59 50.8 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "95fc7ece-2a79-4739-9450-793770d0cf02")
-	)
-	(label "PC1"
-		(at 148.59 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "967eb28f-f561-4239-a43c-75c2ca660e22")
+		(uuid "8d36756c-97a7-4f4c-b5bd-4a0f0999eda6")
 	)
 	(label "FAN2"
 		(at 82.55 59.69 0)
@@ -2904,8 +2892,8 @@
 		)
 		(uuid "99b841d3-19f3-43e5-8ca4-d01acb7c08dc")
 	)
-	(label "BRAKE{slash}IR{slash}AIR"
-		(at 148.59 127 180)
+	(label "PUMP1"
+		(at 157.48 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2913,21 +2901,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "9f9f71f8-4ace-4b05-88df-953892451a2f")
-	)
-	(label "PUMP2"
-		(at 148.59 68.58 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3a4b7ca-c6b2-4ef7-bf75-4224cac21a60")
+		(uuid "ae93a8d3-07ee-48a5-b113-41d372cfc4a6")
 	)
 	(label "SDC{slash}ASMS"
-		(at 148.59 119.38 180)
+		(at 157.48 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2935,7 +2912,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ac6f8cf3-6c7f-49a7-b190-97ec4614e879")
+		(uuid "b17e21af-07e5-4823-85fc-a4515fce6be2")
 	)
 	(label "DASH"
 		(at 82.55 100.33 0)
@@ -2948,19 +2925,8 @@
 		)
 		(uuid "baa25744-c247-4b0f-9bb8-453940fd30e6")
 	)
-	(label "FBOX"
-		(at 148.59 132.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bd79d3c0-92b1-4cde-acd9-7b2f498c6a4e")
-	)
 	(label "FAN2"
-		(at 148.59 66.04 180)
+		(at 157.48 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2968,10 +2934,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "bde0cda5-f5d6-477a-9836-40f3f20e7990")
+		(uuid "c0394e97-95e7-4462-a98e-408806bff5b3")
 	)
-	(label "PC2"
-		(at 148.59 101.6 180)
+	(label "DASH"
+		(at 157.48 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2979,10 +2945,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c7050ab6-5914-49fb-b889-e2ae92a22ca8")
+		(uuid "c5f4cc36-928b-4b7e-bc46-0b1e30c033ed")
 	)
-	(label "PUMP1"
-		(at 148.59 76.2 180)
+	(label "SDC{slash}ASMS"
+		(at 157.48 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2990,29 +2956,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c878c346-efd6-4f0d-8a65-4252c112e25d")
-	)
-	(label "PUMP2"
-		(at 148.59 71.12 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "cc0b31a6-51c1-4891-8a43-77986cc89d08")
-	)
-	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 148.59 53.34 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d10feb0f-7237-4704-9a21-1b478a18f233")
+		(uuid "c9b21f6c-c097-4451-9a3b-c0963fef7489")
 	)
 	(label "PUMP1"
 		(at 82.55 64.77 0)
@@ -3025,6 +2969,17 @@
 		)
 		(uuid "dcfd60b0-5f21-4b98-a886-8cd1f157aa21")
 	)
+	(label "PUMP1"
+		(at 157.48 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e10a2843-3ef2-45b7-bb47-ef79fc980fea")
+	)
 	(label "TSAL{slash}HV"
 		(at 82.55 118.11 0)
 		(fields_autoplaced yes)
@@ -3036,8 +2991,8 @@
 		)
 		(uuid "e62d8298-8fe6-4f12-99bb-5ee10ef409e3")
 	)
-	(label "INVERTER 1"
-		(at 148.59 45.72 180)
+	(label "FAN2"
+		(at 157.48 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3045,10 +3000,10 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "e76b9e2c-7cfa-467c-a168-63a37c15cad7")
+		(uuid "edaec5b6-bf6c-471f-9278-dbfa507bc65d")
 	)
-	(label "PC2"
-		(at 148.59 99.06 180)
+	(label "BRAKE{slash}IR{slash}AIR"
+		(at 157.48 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3056,7 +3011,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "ef20fbca-52a4-4da9-9c98-231e3e15815d")
+		(uuid "edfd5b95-af71-4eae-80a2-d77857f6b8cd")
+	)
+	(label "PC4"
+		(at 157.48 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "eec7d0cb-6411-43a0-9383-e4410f23c1ba")
+	)
+	(label "PUMP2"
+		(at 157.48 97.79 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef4a662e-8f79-4bbb-a10e-58704fc378e0")
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
 		(at 82.55 105.41 0)
@@ -3069,8 +3046,8 @@
 		)
 		(uuid "f32a7c82-f5fc-45b4-8890-999ab20530ba")
 	)
-	(label "DASH"
-		(at 148.59 111.76 180)
+	(label "INVERTER 1"
+		(at 157.48 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3078,7 +3055,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fa5921d6-7528-420f-b03f-cfd4fbb2ce1f")
+		(uuid "f4f56b55-5917-4c69-b502-043ca8006262")
+	)
+	(label "PC3"
+		(at 157.48 72.39 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f886f57a-fac5-4218-ac04-67cf6b9f3578")
 	)
 	(label "FBOX"
 		(at 82.55 107.95 0)
@@ -3093,7 +3081,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TVP00WCI17-02P")
-		(at 156.21 86.36 180)
+		(at 165.1 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3102,7 +3090,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f7a0b94-f3cd-43a6-a282-b3098ef7e0d9")
 		(property "Reference" "J1"
-			(at 162.56 85.0899 0)
+			(at 171.45 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3111,7 +3099,7 @@
 			)
 		)
 		(property "Value" "TVP00WCI17-02P "
-			(at 162.56 87.6299 0)
+			(at 171.45 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3120,7 +3108,7 @@
 			)
 		)
 		(property "Footprint" "Connector:tvp00wci17-02p"
-			(at 156.21 86.36 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3129,7 +3117,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SOSU/SOSU-S-A0010748667/SOSU-S-A0010748667-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
-			(at 156.21 86.36 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3138,7 +3126,7 @@
 			)
 		)
 		(property "Description" "TVP00WCI17-02P "
-			(at 156.21 86.36 0)
+			(at 165.1 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
