@@ -989,7 +989,7 @@
 						(type outline)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 5.08 48.26 180)
 					(length 3.81)
 					(name "Pin_1"
@@ -1565,7 +1565,7 @@
 						)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 5.08 -48.26 180)
 					(length 3.81)
 					(name "Pin_39"
@@ -2377,16 +2377,6 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 133.35) (xy 160.02 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca815514-4174-4470-8f82-90dfdb94b8bc")
-	)
-	(wire
-		(pts
 			(xy 157.48 69.85) (xy 160.02 69.85)
 		)
 		(stroke
@@ -2540,7 +2530,7 @@
 		(uuid "9caeaffd-7c82-4f31-b9cf-66795876b8c6")
 	)
 	(label "DASH"
-		(at 229.87 45.72 180)
+		(at 157.48 59.69 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2549,17 +2539,6 @@
 			(justify right bottom)
 		)
 		(uuid "03364560-f530-4dee-9e64-de0baf489ef5")
-	)
-	(label "BRAKE{slash}IR{slash}AIR"
-		(at 157.48 110.49 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "04140630-af29-48e7-8b10-b0e0e386008a")
 	)
 	(label "PC4"
 		(at 82.55 69.85 0)
@@ -2584,7 +2563,7 @@
 		(uuid "10d1c6a9-9a22-44b2-9461-0eda2e97c6e4")
 	)
 	(label "FBOX"
-		(at 229.87 27.94 180)
+		(at 157.48 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2595,7 +2574,7 @@
 		(uuid "1109b0d6-0a12-4720-8275-f0b5a96ebf41")
 	)
 	(label "TSAL{slash}HV"
-		(at 229.87 96.52 180)
+		(at 157.48 110.49 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2605,30 +2584,8 @@
 		)
 		(uuid "11ed5f87-db96-4364-9839-9bac15f817d9")
 	)
-	(label "PC2"
-		(at 157.48 125.73 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "16108037-0710-4d04-bc92-c3756b45b174")
-	)
-	(label "INVERTER 2"
-		(at 157.48 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "176312df-3c1b-43bd-a565-17028f417c56")
-	)
 	(label "SDC{slash}ASMS"
-		(at 229.87 43.18 180)
+		(at 157.48 57.15 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2639,7 +2596,7 @@
 		(uuid "1764f43d-869f-4be2-b2c8-205462a7cd0b")
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
-		(at 229.87 25.4 180)
+		(at 157.48 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2650,7 +2607,7 @@
 		(uuid "204e5ef9-c7ef-46e2-8e39-de15cacafc30")
 	)
 	(label "PC1"
-		(at 229.87 50.8 180)
+		(at 157.48 64.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2660,19 +2617,8 @@
 		)
 		(uuid "21857a52-0a3f-49bb-8643-9002000a67ef")
 	)
-	(label "TSAL{slash}HV"
-		(at 157.48 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "225d5ee8-519d-4874-93ed-dfcf459699f8")
-	)
 	(label "PUMP1"
-		(at 229.87 78.74 180)
+		(at 157.48 92.71 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2683,7 +2629,7 @@
 		(uuid "2580f0c1-66d8-4b7f-a6cd-119635121c15")
 	)
 	(label "PC4"
-		(at 229.87 63.5 180)
+		(at 157.48 77.47 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2692,6 +2638,17 @@
 			(justify right bottom)
 		)
 		(uuid "289e9cee-960d-4829-9475-81b6d0b652f0")
+	)
+	(label "INVERTER 2"
+		(at 157.48 130.81 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2b20857c-ad45-4ac3-888f-b27e242cb8c4")
 	)
 	(label "PUMP2"
 		(at 82.55 62.23 0)
@@ -2705,7 +2662,7 @@
 		(uuid "3120c068-50d8-42d7-b4c9-70e8fd819cd2")
 	)
 	(label "PC1"
-		(at 229.87 48.26 180)
+		(at 157.48 62.23 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2716,7 +2673,7 @@
 		(uuid "3392ce08-dfa5-4620-ab27-10aef02a4ba7")
 	)
 	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 229.87 104.14 180)
+		(at 157.48 118.11 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2727,7 +2684,7 @@
 		(uuid "359c5156-2d3c-41d2-84e5-d3647a53f16f")
 	)
 	(label "FBOX"
-		(at 229.87 22.86 180)
+		(at 157.48 36.83 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2738,7 +2695,7 @@
 		(uuid "35e85356-1b80-4012-a196-b1720306e1ba")
 	)
 	(label "FAN2"
-		(at 229.87 91.44 180)
+		(at 157.48 105.41 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2760,7 +2717,7 @@
 		(uuid "3981bd66-6fab-4c7a-9080-65ccb95ec178")
 	)
 	(label "PC4"
-		(at 229.87 68.58 180)
+		(at 157.48 82.55 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2770,8 +2727,19 @@
 		)
 		(uuid "3cf5a363-21f5-4e3d-9738-7d86b7e22c22")
 	)
+	(label "FAN1"
+		(at 157.48 85.09 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3f3e978f-85e9-4bb0-8599-c2031ebf2e98")
+	)
 	(label "INVERTER 2"
-		(at 229.87 114.3 180)
+		(at 157.48 128.27 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2780,50 +2748,6 @@
 			(justify right bottom)
 		)
 		(uuid "41791d1a-1391-4c71-ac56-6923ce53c3aa")
-	)
-	(label "PC4"
-		(at 157.48 133.35 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "422e0a71-e109-4ec5-98d6-403b758abc6f")
-	)
-	(label "BRAKE{slash}IR{slash}AIR"
-		(at 157.48 62.23 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "456f9766-2fad-4b8c-b889-d6448b42b73f")
-	)
-	(label "PC4"
-		(at 157.48 130.81 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "46edf3f5-e2a3-4f1d-9fcf-3f4c39a1444e")
-	)
-	(label "PUMP2"
-		(at 157.48 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4be99c09-c78b-4078-a600-a6db9a189d91")
 	)
 	(label "SDC{slash}ASMS"
 		(at 82.55 102.87 0)
@@ -2837,17 +2761,6 @@
 		(uuid "50f42d10-ac56-4f22-8ce8-6d80cc476dce")
 	)
 	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 229.87 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54038244-0a3b-4475-a668-1add4579c411")
-	)
-	(label "SDC{slash}ASMS"
 		(at 157.48 115.57 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2856,18 +2769,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "58186ad3-12a1-4c4a-a27c-26bf501a7aeb")
-	)
-	(label "PC2"
-		(at 157.48 72.39 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5ec9b006-0e6e-4725-afab-f0c8e1bf417f")
+		(uuid "54038244-0a3b-4475-a668-1add4579c411")
 	)
 	(label "INVERTER 1"
 		(at 82.55 113.03 0)
@@ -2892,18 +2794,7 @@
 		(uuid "5f61e4ec-19f8-4cc1-82ed-333de77bb11a")
 	)
 	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 157.48 54.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "603a26f5-42ac-416b-9b25-41c3161759a3")
-	)
-	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 229.87 109.22 180)
+		(at 157.48 123.19 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2914,7 +2805,7 @@
 		(uuid "618fc229-f952-4e86-9500-e3e5c7688ad6")
 	)
 	(label "INVERTER 1"
-		(at 229.87 106.68 180)
+		(at 157.48 120.65 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2924,40 +2815,7 @@
 		)
 		(uuid "6273a04d-02e3-4b03-baba-2cdb0d680a20")
 	)
-	(label "PC3"
-		(at 157.48 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "653d6e01-6d12-4084-b757-0ea0b88ae059")
-	)
-	(label "FAN1"
-		(at 157.48 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65ea8caa-31ad-4eaf-9899-8cbc2ae08c45")
-	)
 	(label "PC2"
-		(at 229.87 55.88 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6824eaab-59fc-40ca-93c9-8903cb9c12b4")
-	)
-	(label "PC1"
 		(at 157.48 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2966,18 +2824,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "6a9aef42-9675-4a82-863e-f38c7325c368")
-	)
-	(label "FAN2"
-		(at 157.48 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6a9f70f8-2337-4e84-819d-e67bd6371409")
+		(uuid "6824eaab-59fc-40ca-93c9-8903cb9c12b4")
 	)
 	(label "PC1"
 		(at 82.55 77.47 0)
@@ -2990,19 +2837,8 @@
 		)
 		(uuid "6d5ebd2e-c461-4376-a612-b6b361891a7b")
 	)
-	(label "PUMP1"
-		(at 157.48 82.55 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "715008c6-027b-477f-a1d1-acdaf602d235")
-	)
 	(label "PC3"
-		(at 229.87 60.96 180)
+		(at 157.48 74.93 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3012,19 +2848,8 @@
 		)
 		(uuid "719c9787-a852-40a2-bbfd-f258e11b3420")
 	)
-	(label "INVERTER 2"
-		(at 157.48 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "71c5a3db-807e-49ff-b36b-d8306da39fc3")
-	)
 	(label "PC2"
-		(at 229.87 53.34 180)
+		(at 157.48 67.31 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3034,30 +2859,8 @@
 		)
 		(uuid "7218e2cb-967f-4726-b22a-fdfaa6fa630f")
 	)
-	(label "PUMP1"
-		(at 157.48 41.91 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7446a70d-f840-41a8-af35-a3970341282d")
-	)
-	(label "DASH"
-		(at 157.48 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77906984-6fab-4f1d-8159-330157096c95")
-	)
 	(label "FAN1"
-		(at 229.87 73.66 180)
+		(at 157.48 87.63 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3089,30 +2892,8 @@
 		)
 		(uuid "7e4d37ee-2e5c-4008-8130-5654df5d5ee1")
 	)
-	(label "INVERTER 1"
-		(at 157.48 100.33 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7f9476c6-2bf1-45fc-bb45-436ae2f05bf2")
-	)
-	(label "PC4"
-		(at 157.48 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86b8df3c-5f6c-4b2f-ad14-301c0999586e")
-	)
 	(label "TSAL{slash}HV"
-		(at 229.87 99.06 180)
+		(at 157.48 113.03 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3123,7 +2904,7 @@
 		(uuid "879d1e14-1fc8-4606-a7ba-079c08423c91")
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
-		(at 229.87 30.48 180)
+		(at 157.48 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3133,19 +2914,8 @@
 		)
 		(uuid "8995e977-bfd1-4713-9a23-e1d0a7f7c9f8")
 	)
-	(label "FBOX"
-		(at 157.48 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d17e925-edee-416f-a99e-668ab4c66a3c")
-	)
 	(label "PUMP2"
-		(at 229.87 86.36 180)
+		(at 157.48 100.33 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3154,50 +2924,6 @@
 			(justify right bottom)
 		)
 		(uuid "8d36756c-97a7-4f4c-b5bd-4a0f0999eda6")
-	)
-	(label "FAN2"
-		(at 157.48 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8e2bf85c-f95c-4e39-95f4-142fded9afb1")
-	)
-	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 157.48 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8fc9f687-4cd5-4916-8a9e-5712f9ddbdcc")
-	)
-	(label "FAN1"
-		(at 157.48 39.37 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "96fad23e-a6d6-4236-bfe2-09cc42e49bd4")
-	)
-	(label "PUMP2"
-		(at 157.48 44.45 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "976eb586-f83b-44fc-bb77-5e4b57040808")
 	)
 	(label "FAN2"
 		(at 82.55 59.69 0)
@@ -3210,52 +2936,8 @@
 		)
 		(uuid "99b841d3-19f3-43e5-8ca4-d01acb7c08dc")
 	)
-	(label "SDC{slash}ASMS"
-		(at 157.48 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ed46aa8-3a0b-4175-aa45-a85b5c3f9566")
-	)
-	(label "TSAL{slash}HV"
-		(at 157.48 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a8bdea59-5a93-4964-8d17-68bdd364505c")
-	)
-	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 157.48 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a900dc16-323e-4cb7-b59c-c143e7b1d197")
-	)
-	(label "BRAKE{slash}IR{slash}AIR"
-		(at 157.48 113.03 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "abcd5830-b1f1-43f2-991f-a552cd1a206a")
-	)
 	(label "PUMP1"
-		(at 229.87 76.2 180)
+		(at 157.48 90.17 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3266,7 +2948,7 @@
 		(uuid "ae93a8d3-07ee-48a5-b113-41d372cfc4a6")
 	)
 	(label "SDC{slash}ASMS"
-		(at 229.87 35.56 180)
+		(at 157.48 49.53 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3275,17 +2957,6 @@
 			(justify right bottom)
 		)
 		(uuid "b17e21af-07e5-4823-85fc-a4515fce6be2")
-	)
-	(label "FAN2"
-		(at 157.48 46.99 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b197079b-f7ce-4c2b-a6fc-2ed3c9450955")
 	)
 	(label "DASH"
 		(at 82.55 100.33 0)
@@ -3298,30 +2969,8 @@
 		)
 		(uuid "baa25744-c247-4b0f-9bb8-453940fd30e6")
 	)
-	(label "INVERTER 1"
-		(at 157.48 102.87 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bbd517e9-710a-45cc-8d76-f91f355a33a8")
-	)
-	(label "PUMP1"
-		(at 157.48 85.09 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bf0841f2-dd41-40f4-b7e2-5ea5b42ce9b6")
-	)
 	(label "FAN2"
-		(at 229.87 88.9 180)
+		(at 157.48 102.87 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3332,7 +2981,7 @@
 		(uuid "c0394e97-95e7-4462-a98e-408806bff5b3")
 	)
 	(label "DASH"
-		(at 229.87 40.64 180)
+		(at 157.48 54.61 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3342,19 +2991,8 @@
 		)
 		(uuid "c5f4cc36-928b-4b7e-bc46-0b1e30c033ed")
 	)
-	(label "FBOX"
-		(at 157.48 59.69 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c91b6745-5943-4d34-91f8-7e912593712d")
-	)
 	(label "SDC{slash}ASMS"
-		(at 229.87 38.1 180)
+		(at 157.48 52.07 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3363,17 +3001,6 @@
 			(justify right bottom)
 		)
 		(uuid "c9b21f6c-c097-4451-9a3b-c0963fef7489")
-	)
-	(label "PC3"
-		(at 157.48 128.27 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d9f5bb5c-a1a5-41f2-8b9a-fba9e1b251e5")
 	)
 	(label "PUMP1"
 		(at 82.55 64.77 0)
@@ -3387,7 +3014,7 @@
 		(uuid "dcfd60b0-5f21-4b98-a886-8cd1f157aa21")
 	)
 	(label "PUMP1"
-		(at 229.87 81.28 180)
+		(at 157.48 95.25 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3408,19 +3035,8 @@
 		)
 		(uuid "e62d8298-8fe6-4f12-99bb-5ee10ef409e3")
 	)
-	(label "PC1"
-		(at 157.48 123.19 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "eb0b945b-f6c0-4a03-9591-a17c08b805dd")
-	)
 	(label "FAN2"
-		(at 229.87 93.98 180)
+		(at 157.48 107.95 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3431,7 +3047,7 @@
 		(uuid "edaec5b6-bf6c-471f-9278-dbfa507bc65d")
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
-		(at 229.87 33.02 180)
+		(at 157.48 46.99 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3442,7 +3058,7 @@
 		(uuid "edfd5b95-af71-4eae-80a2-d77857f6b8cd")
 	)
 	(label "PC4"
-		(at 229.87 66.04 180)
+		(at 157.48 80.01 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3453,7 +3069,7 @@
 		(uuid "eec7d0cb-6411-43a0-9383-e4410f23c1ba")
 	)
 	(label "PUMP2"
-		(at 229.87 83.82 180)
+		(at 157.48 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3474,19 +3090,8 @@
 		)
 		(uuid "f32a7c82-f5fc-45b4-8890-999ab20530ba")
 	)
-	(label "SDC{slash}ASMS"
-		(at 157.48 67.31 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f3cbec80-14af-4fe8-9621-6ce69252b634")
-	)
 	(label "INVERTER 1"
-		(at 229.87 111.76 180)
+		(at 157.48 125.73 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3497,7 +3102,7 @@
 		(uuid "f4f56b55-5917-4c69-b502-043ca8006262")
 	)
 	(label "PC3"
-		(at 229.87 58.42 180)
+		(at 157.48 72.39 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3517,17 +3122,6 @@
 			(justify left bottom)
 		)
 		(uuid "fe47c51c-8df4-4568-a875-7fff4c620638")
-	)
-	(label "DASH"
-		(at 157.48 118.11 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ff62e966-3fda-44d9-adf6-f2d8c650fece")
 	)
 	(symbol
 		(lib_id "Connector:TVP00WCI17-02P")
