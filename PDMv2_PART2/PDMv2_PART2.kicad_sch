@@ -2529,8 +2529,13 @@
 		)
 		(uuid "9caeaffd-7c82-4f31-b9cf-66795876b8c6")
 	)
+<<<<<<< Updated upstream
 	(label "DASH"
 		(at 157.48 59.69 180)
+=======
+	(label "BRAKE{slash}IR{slash}AIR"
+		(at 157.48 110.49 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2538,7 +2543,11 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "03364560-f530-4dee-9e64-de0baf489ef5")
+=======
+		(uuid "04140630-af29-48e7-8b10-b0e0e386008a")
+>>>>>>> Stashed changes
 	)
 	(label "PC4"
 		(at 82.55 69.85 0)
@@ -2562,8 +2571,13 @@
 		)
 		(uuid "10d1c6a9-9a22-44b2-9461-0eda2e97c6e4")
 	)
+<<<<<<< Updated upstream
 	(label "FBOX"
 		(at 157.48 41.91 180)
+=======
+	(label "PC2"
+		(at 157.48 125.73 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2571,6 +2585,7 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "1109b0d6-0a12-4720-8275-f0b5a96ebf41")
 	)
 	(label "TSAL{slash}HV"
@@ -2641,6 +2656,12 @@
 	)
 	(label "INVERTER 2"
 		(at 157.48 130.81 180)
+=======
+		(uuid "16108037-0710-4d04-bc92-c3756b45b174")
+	)
+	(label "INVERTER 2"
+		(at 157.48 105.41 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2648,7 +2669,22 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "2b20857c-ad45-4ac3-888f-b27e242cb8c4")
+=======
+		(uuid "176312df-3c1b-43bd-a565-17028f417c56")
+	)
+	(label "TSAL{slash}HV"
+		(at 157.48 49.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "225d5ee8-519d-4874-93ed-dfcf459699f8")
+>>>>>>> Stashed changes
 	)
 	(label "PUMP2"
 		(at 82.55 62.23 0)
@@ -2661,6 +2697,7 @@
 		)
 		(uuid "3120c068-50d8-42d7-b4c9-70e8fd819cd2")
 	)
+<<<<<<< Updated upstream
 	(label "PC1"
 		(at 157.48 62.23 180)
 		(fields_autoplaced yes)
@@ -2705,6 +2742,8 @@
 		)
 		(uuid "36aab0d1-5843-408a-9d94-47c3728ad2e8")
 	)
+=======
+>>>>>>> Stashed changes
 	(label "INVERTER 2"
 		(at 82.55 110.49 0)
 		(fields_autoplaced yes)
@@ -2717,7 +2756,11 @@
 		(uuid "3981bd66-6fab-4c7a-9080-65ccb95ec178")
 	)
 	(label "PC4"
+<<<<<<< Updated upstream
 		(at 157.48 82.55 180)
+=======
+		(at 157.48 133.35 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2725,10 +2768,17 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "3cf5a363-21f5-4e3d-9738-7d86b7e22c22")
 	)
 	(label "FAN1"
 		(at 157.48 85.09 180)
+=======
+		(uuid "422e0a71-e109-4ec5-98d6-403b758abc6f")
+	)
+	(label "BRAKE{slash}IR{slash}AIR"
+		(at 157.48 62.23 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2736,10 +2786,17 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "3f3e978f-85e9-4bb0-8599-c2031ebf2e98")
 	)
 	(label "INVERTER 2"
 		(at 157.48 128.27 180)
+=======
+		(uuid "456f9766-2fad-4b8c-b889-d6448b42b73f")
+	)
+	(label "PC4"
+		(at 157.48 130.81 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2747,7 +2804,22 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "41791d1a-1391-4c71-ac56-6923ce53c3aa")
+=======
+		(uuid "46edf3f5-e2a3-4f1d-9fcf-3f4c39a1444e")
+	)
+	(label "PUMP2"
+		(at 157.48 87.63 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4be99c09-c78b-4078-a600-a6db9a189d91")
+>>>>>>> Stashed changes
 	)
 	(label "SDC{slash}ASMS"
 		(at 82.55 102.87 0)
@@ -2760,7 +2832,11 @@
 		)
 		(uuid "50f42d10-ac56-4f22-8ce8-6d80cc476dce")
 	)
+<<<<<<< Updated upstream
 	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
+=======
+	(label "SDC{slash}ASMS"
+>>>>>>> Stashed changes
 		(at 157.48 115.57 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2794,7 +2870,11 @@
 		(uuid "5f61e4ec-19f8-4cc1-82ed-333de77bb11a")
 	)
 	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
+<<<<<<< Updated upstream
 		(at 157.48 123.19 180)
+=======
+		(at 157.48 54.61 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2802,10 +2882,17 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "618fc229-f952-4e86-9500-e3e5c7688ad6")
 	)
 	(label "INVERTER 1"
 		(at 157.48 120.65 180)
+=======
+		(uuid "603a26f5-42ac-416b-9b25-41c3161759a3")
+	)
+	(label "PC3"
+		(at 157.48 74.93 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2813,9 +2900,26 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "6273a04d-02e3-4b03-baba-2cdb0d680a20")
 	)
 	(label "PC2"
+=======
+		(uuid "653d6e01-6d12-4084-b757-0ea0b88ae059")
+	)
+	(label "FAN1"
+		(at 157.48 80.01 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "65ea8caa-31ad-4eaf-9899-8cbc2ae08c45")
+	)
+	(label "PC1"
+>>>>>>> Stashed changes
 		(at 157.48 69.85 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2837,8 +2941,13 @@
 		)
 		(uuid "6d5ebd2e-c461-4376-a612-b6b361891a7b")
 	)
+<<<<<<< Updated upstream
 	(label "PC3"
 		(at 157.48 74.93 180)
+=======
+	(label "PUMP1"
+		(at 157.48 82.55 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2846,10 +2955,17 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "719c9787-a852-40a2-bbfd-f258e11b3420")
 	)
 	(label "PC2"
 		(at 157.48 67.31 180)
+=======
+		(uuid "715008c6-027b-477f-a1d1-acdaf602d235")
+	)
+	(label "INVERTER 2"
+		(at 157.48 57.15 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2857,10 +2973,17 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "7218e2cb-967f-4726-b22a-fdfaa6fa630f")
 	)
 	(label "FAN1"
 		(at 157.48 87.63 180)
+=======
+		(uuid "71c5a3db-807e-49ff-b36b-d8306da39fc3")
+	)
+	(label "PUMP1"
+		(at 157.48 41.91 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2868,7 +2991,22 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "7990a593-74a8-48c2-aa1a-9999660768b9")
+=======
+		(uuid "7446a70d-f840-41a8-af35-a3970341282d")
+	)
+	(label "DASH"
+		(at 157.48 120.65 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "77906984-6fab-4f1d-8159-330157096c95")
+>>>>>>> Stashed changes
 	)
 	(label "PC3"
 		(at 82.55 72.39 0)
@@ -2892,6 +3030,7 @@
 		)
 		(uuid "7e4d37ee-2e5c-4008-8130-5654df5d5ee1")
 	)
+<<<<<<< Updated upstream
 	(label "TSAL{slash}HV"
 		(at 157.48 113.03 180)
 		(fields_autoplaced yes)
@@ -2915,6 +3054,9 @@
 		(uuid "8995e977-bfd1-4713-9a23-e1d0a7f7c9f8")
 	)
 	(label "PUMP2"
+=======
+	(label "INVERTER 1"
+>>>>>>> Stashed changes
 		(at 157.48 100.33 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2923,7 +3065,33 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "8d36756c-97a7-4f4c-b5bd-4a0f0999eda6")
+=======
+		(uuid "7f9476c6-2bf1-45fc-bb45-436ae2f05bf2")
+	)
+	(label "PC4"
+		(at 157.48 77.47 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "86b8df3c-5f6c-4b2f-ad14-301c0999586e")
+	)
+	(label "FBOX"
+		(at 157.48 107.95 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8d17e925-edee-416f-a99e-668ab4c66a3c")
+>>>>>>> Stashed changes
 	)
 	(label "FAN2"
 		(at 82.55 59.69 0)
@@ -2936,6 +3104,7 @@
 		)
 		(uuid "99b841d3-19f3-43e5-8ca4-d01acb7c08dc")
 	)
+<<<<<<< Updated upstream
 	(label "PUMP1"
 		(at 157.48 90.17 180)
 		(fields_autoplaced yes)
@@ -2949,6 +3118,10 @@
 	)
 	(label "SDC{slash}ASMS"
 		(at 157.48 49.53 180)
+=======
+	(label "SDC{slash}ASMS"
+		(at 157.48 64.77 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2956,7 +3129,55 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "b17e21af-07e5-4823-85fc-a4515fce6be2")
+=======
+		(uuid "9ed46aa8-3a0b-4175-aa45-a85b5c3f9566")
+	)
+	(label "TSAL{slash}HV"
+		(at 157.48 95.25 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a8bdea59-5a93-4964-8d17-68bdd364505c")
+	)
+	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
+		(at 157.48 52.07 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a900dc16-323e-4cb7-b59c-c143e7b1d197")
+	)
+	(label "BRAKE{slash}IR{slash}AIR"
+		(at 157.48 113.03 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abcd5830-b1f1-43f2-991f-a552cd1a206a")
+	)
+	(label "FAN2"
+		(at 157.48 46.99 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b197079b-f7ce-4c2b-a6fc-2ed3c9450955")
+>>>>>>> Stashed changes
 	)
 	(label "DASH"
 		(at 82.55 100.33 0)
@@ -2969,7 +3190,11 @@
 		)
 		(uuid "baa25744-c247-4b0f-9bb8-453940fd30e6")
 	)
+<<<<<<< Updated upstream
 	(label "FAN2"
+=======
+	(label "INVERTER 1"
+>>>>>>> Stashed changes
 		(at 157.48 102.87 180)
 		(fields_autoplaced yes)
 		(effects
@@ -2978,10 +3203,17 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "c0394e97-95e7-4462-a98e-408806bff5b3")
 	)
 	(label "DASH"
 		(at 157.48 54.61 180)
+=======
+		(uuid "bbd517e9-710a-45cc-8d76-f91f355a33a8")
+	)
+	(label "PUMP1"
+		(at 157.48 85.09 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2989,10 +3221,17 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "c5f4cc36-928b-4b7e-bc46-0b1e30c033ed")
 	)
 	(label "SDC{slash}ASMS"
 		(at 157.48 52.07 180)
+=======
+		(uuid "bf0841f2-dd41-40f4-b7e2-5ea5b42ce9b6")
+	)
+	(label "FBOX"
+		(at 157.48 59.69 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3000,7 +3239,22 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "c9b21f6c-c097-4451-9a3b-c0963fef7489")
+=======
+		(uuid "c91b6745-5943-4d34-91f8-7e912593712d")
+	)
+	(label "PC3"
+		(at 157.48 128.27 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d9f5bb5c-a1a5-41f2-8b9a-fba9e1b251e5")
+>>>>>>> Stashed changes
 	)
 	(label "PUMP1"
 		(at 82.55 64.77 0)
@@ -3013,6 +3267,7 @@
 		)
 		(uuid "dcfd60b0-5f21-4b98-a886-8cd1f157aa21")
 	)
+<<<<<<< Updated upstream
 	(label "PUMP1"
 		(at 157.48 95.25 180)
 		(fields_autoplaced yes)
@@ -3024,6 +3279,8 @@
 		)
 		(uuid "e10a2843-3ef2-45b7-bb47-ef79fc980fea")
 	)
+=======
+>>>>>>> Stashed changes
 	(label "TSAL{slash}HV"
 		(at 82.55 118.11 0)
 		(fields_autoplaced yes)
@@ -3035,8 +3292,13 @@
 		)
 		(uuid "e62d8298-8fe6-4f12-99bb-5ee10ef409e3")
 	)
+<<<<<<< Updated upstream
 	(label "FAN2"
 		(at 157.48 107.95 180)
+=======
+	(label "PC1"
+		(at 157.48 123.19 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3044,6 +3306,7 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "edaec5b6-bf6c-471f-9278-dbfa507bc65d")
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
@@ -3078,6 +3341,9 @@
 			(justify right bottom)
 		)
 		(uuid "ef4a662e-8f79-4bbb-a10e-58704fc378e0")
+=======
+		(uuid "eb0b945b-f6c0-4a03-9591-a17c08b805dd")
+>>>>>>> Stashed changes
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
 		(at 82.55 105.41 0)
@@ -3090,8 +3356,13 @@
 		)
 		(uuid "f32a7c82-f5fc-45b4-8890-999ab20530ba")
 	)
+<<<<<<< Updated upstream
 	(label "INVERTER 1"
 		(at 157.48 125.73 180)
+=======
+	(label "SDC{slash}ASMS"
+		(at 157.48 67.31 180)
+>>>>>>> Stashed changes
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3099,6 +3370,7 @@
 			)
 			(justify right bottom)
 		)
+<<<<<<< Updated upstream
 		(uuid "f4f56b55-5917-4c69-b502-043ca8006262")
 	)
 	(label "PC3"
@@ -3111,6 +3383,9 @@
 			(justify right bottom)
 		)
 		(uuid "f886f57a-fac5-4218-ac04-67cf6b9f3578")
+=======
+		(uuid "f3cbec80-14af-4fe8-9621-6ce69252b634")
+>>>>>>> Stashed changes
 	)
 	(label "FBOX"
 		(at 82.55 107.95 0)
