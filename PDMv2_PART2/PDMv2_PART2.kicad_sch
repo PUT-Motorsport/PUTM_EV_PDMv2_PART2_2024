@@ -989,7 +989,7 @@
 						(type outline)
 					)
 				)
-				(pin no_connect line
+				(pin passive line
 					(at 5.08 48.26 180)
 					(length 3.81)
 					(name "Pin_1"
@@ -1565,7 +1565,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin no_connect line
 					(at 5.08 -48.26 180)
 					(length 3.81)
 					(name "Pin_39"
@@ -1684,6 +1684,261 @@
 						)
 					)
 					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector_Generic:Conn_01x06"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x06_1_1"
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 5.08 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1944,6 +2199,118 @@
 				)
 			)
 		)
+		(symbol "power:GND"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0) hide
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 82.55 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "644e3875-16ca-47b0-87ec-a505c802bd0b")
+	)
+	(junction
+		(at 82.55 153.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e12b6ac0-3945-46d0-9236-f7d917738f95")
+	)
+	(no_connect
+		(at 76.2 148.59)
+		(uuid "2deb5cfd-0c31-4fca-9c9f-3d55de3296eb")
 	)
 	(wire
 		(pts
@@ -1957,7 +2324,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 39.37) (xy 160.02 39.37)
+			(xy 176.53 39.37) (xy 179.07 39.37)
 		)
 		(stroke
 			(width 0)
@@ -1967,7 +2334,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 59.69) (xy 160.02 59.69)
+			(xy 176.53 59.69) (xy 179.07 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1977,7 +2344,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 92.71) (xy 160.02 92.71)
+			(xy 176.53 92.71) (xy 179.07 92.71)
 		)
 		(stroke
 			(width 0)
@@ -1987,7 +2354,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 105.41) (xy 160.02 105.41)
+			(xy 176.53 105.41) (xy 179.07 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1997,13 +2364,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 72.39) (xy 160.02 72.39)
+			(xy 176.53 72.39) (xy 179.07 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "189c17a1-665d-463b-b087-018b46ed63c9")
+	)
+	(wire
+		(pts
+			(xy 176.53 133.35) (xy 179.07 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1a3257d3-6edd-4c5f-9b21-a20b0a30d51a")
 	)
 	(wire
 		(pts
@@ -2017,7 +2394,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 123.19) (xy 160.02 123.19)
+			(xy 176.53 123.19) (xy 179.07 123.19)
 		)
 		(stroke
 			(width 0)
@@ -2027,7 +2404,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 113.03) (xy 160.02 113.03)
+			(xy 176.53 113.03) (xy 179.07 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2037,7 +2414,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 54.61) (xy 160.02 54.61)
+			(xy 176.53 54.61) (xy 179.07 54.61)
 		)
 		(stroke
 			(width 0)
@@ -2047,7 +2424,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 120.65) (xy 160.02 120.65)
+			(xy 74.93 156.21) (xy 82.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32f2479f-4ddb-444e-8be5-aecbc6c54ba6")
+	)
+	(wire
+		(pts
+			(xy 176.53 120.65) (xy 179.07 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2067,7 +2454,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 85.09) (xy 160.02 85.09)
+			(xy 176.53 85.09) (xy 179.07 85.09)
 		)
 		(stroke
 			(width 0)
@@ -2077,7 +2464,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 118.11) (xy 160.02 118.11)
+			(xy 176.53 118.11) (xy 179.07 118.11)
 		)
 		(stroke
 			(width 0)
@@ -2087,17 +2474,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 36.83) (xy 160.02 36.83)
+			(xy 82.55 151.13) (xy 82.55 153.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4a2d32d2-b984-483f-b77d-5be5a9c9bf6c")
+		(uuid "4cf347b0-86bb-40cd-a0c9-646024644d4b")
 	)
 	(wire
 		(pts
-			(xy 157.48 128.27) (xy 160.02 128.27)
+			(xy 176.53 128.27) (xy 179.07 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2107,7 +2494,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 74.93) (xy 160.02 74.93)
+			(xy 176.53 74.93) (xy 179.07 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2127,7 +2514,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 67.31) (xy 160.02 67.31)
+			(xy 176.53 67.31) (xy 179.07 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2137,7 +2524,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 46.99) (xy 160.02 46.99)
+			(xy 176.53 46.99) (xy 179.07 46.99)
 		)
 		(stroke
 			(width 0)
@@ -2147,7 +2534,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 90.17) (xy 160.02 90.17)
+			(xy 176.53 90.17) (xy 179.07 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2197,7 +2584,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 77.47) (xy 160.02 77.47)
+			(xy 176.53 77.47) (xy 179.07 77.47)
 		)
 		(stroke
 			(width 0)
@@ -2217,7 +2604,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 95.25) (xy 160.02 95.25)
+			(xy 176.53 95.25) (xy 179.07 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2227,7 +2614,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 115.57) (xy 160.02 115.57)
+			(xy 176.53 115.57) (xy 179.07 115.57)
 		)
 		(stroke
 			(width 0)
@@ -2237,7 +2624,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 82.55) (xy 160.02 82.55)
+			(xy 176.53 82.55) (xy 179.07 82.55)
 		)
 		(stroke
 			(width 0)
@@ -2257,7 +2644,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 49.53) (xy 160.02 49.53)
+			(xy 176.53 49.53) (xy 179.07 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2277,7 +2664,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 160.02 87.63)
+			(xy 82.55 153.67) (xy 82.55 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2bfcc8a-604b-41ce-8cc4-254bb4d03a65")
+	)
+	(wire
+		(pts
+			(xy 176.53 87.63) (xy 179.07 87.63)
 		)
 		(stroke
 			(width 0)
@@ -2287,7 +2684,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33) (xy 160.02 100.33)
+			(xy 176.53 100.33) (xy 179.07 100.33)
 		)
 		(stroke
 			(width 0)
@@ -2307,7 +2704,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 44.45) (xy 160.02 44.45)
+			(xy 176.53 44.45) (xy 179.07 44.45)
 		)
 		(stroke
 			(width 0)
@@ -2317,7 +2714,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 80.01) (xy 160.02 80.01)
+			(xy 176.53 80.01) (xy 179.07 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2327,7 +2724,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 125.73) (xy 160.02 125.73)
+			(xy 176.53 125.73) (xy 179.07 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2337,7 +2734,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 64.77) (xy 160.02 64.77)
+			(xy 76.2 148.59) (xy 82.55 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c0ee222b-db7c-4262-a729-1ce410f85b4f")
+	)
+	(wire
+		(pts
+			(xy 176.53 64.77) (xy 179.07 64.77)
 		)
 		(stroke
 			(width 0)
@@ -2347,7 +2754,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 102.87) (xy 160.02 102.87)
+			(xy 176.53 102.87) (xy 179.07 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2357,7 +2764,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 107.95) (xy 160.02 107.95)
+			(xy 176.53 107.95) (xy 179.07 107.95)
 		)
 		(stroke
 			(width 0)
@@ -2367,7 +2774,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 62.23) (xy 160.02 62.23)
+			(xy 76.2 143.51) (xy 82.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca43ee82-65c6-4336-bfc3-7a50b44c830f")
+	)
+	(wire
+		(pts
+			(xy 176.53 62.23) (xy 179.07 62.23)
 		)
 		(stroke
 			(width 0)
@@ -2377,7 +2794,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 69.85) (xy 160.02 69.85)
+			(xy 176.53 69.85) (xy 179.07 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2387,7 +2804,17 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 41.91) (xy 160.02 41.91)
+			(xy 76.2 146.05) (xy 82.55 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5801b73-e828-4f1a-a0f6-678afb69c95c")
+	)
+	(wire
+		(pts
+			(xy 176.53 41.91) (xy 179.07 41.91)
 		)
 		(stroke
 			(width 0)
@@ -2407,7 +2834,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 130.81) (xy 160.02 130.81)
+			(xy 176.53 130.81) (xy 179.07 130.81)
 		)
 		(stroke
 			(width 0)
@@ -2417,7 +2844,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 52.07) (xy 160.02 52.07)
+			(xy 176.53 52.07) (xy 179.07 52.07)
 		)
 		(stroke
 			(width 0)
@@ -2447,7 +2874,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 57.15) (xy 160.02 57.15)
+			(xy 176.53 57.15) (xy 179.07 57.15)
 		)
 		(stroke
 			(width 0)
@@ -2467,7 +2894,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 97.79) (xy 160.02 97.79)
+			(xy 176.53 97.79) (xy 179.07 97.79)
 		)
 		(stroke
 			(width 0)
@@ -2477,7 +2904,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 110.49) (xy 160.02 110.49)
+			(xy 176.53 110.49) (xy 179.07 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2499,7 +2926,7 @@
 	)
 	(rectangle
 		(start 119.38 25.4)
-		(end 193.04 139.7)
+		(end 219.71 139.7)
 		(stroke
 			(width 0)
 			(type default)
@@ -2529,29 +2956,18 @@
 		)
 		(uuid "9caeaffd-7c82-4f31-b9cf-66795876b8c6")
 	)
-<<<<<<< Updated upstream
-	(label "DASH"
-		(at 157.48 59.69 180)
-=======
-	(label "BRAKE{slash}IR{slash}AIR"
-		(at 157.48 110.49 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+	(label "CAN_L"
+		(at 76.2 143.51 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "03364560-f530-4dee-9e64-de0baf489ef5")
-=======
-		(uuid "04140630-af29-48e7-8b10-b0e0e386008a")
->>>>>>> Stashed changes
+		(uuid "09dc1449-da4a-4bbd-ad38-f5c588a47925")
 	)
 	(label "PC4"
 		(at 82.55 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2562,7 +2978,6 @@
 	)
 	(label "FAN1"
 		(at 82.55 67.31 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2571,124 +2986,38 @@
 		)
 		(uuid "10d1c6a9-9a22-44b2-9461-0eda2e97c6e4")
 	)
-<<<<<<< Updated upstream
-	(label "FBOX"
-		(at 157.48 41.91 180)
-=======
-	(label "PC2"
-		(at 157.48 125.73 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+	(label "DASH"
+		(at 176.53 118.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "1109b0d6-0a12-4720-8275-f0b5a96ebf41")
+		(uuid "13b25727-944e-49b3-8224-5c57c4a29588")
 	)
-	(label "TSAL{slash}HV"
-		(at 157.48 110.49 180)
-		(fields_autoplaced yes)
+	(label "INVERTER 2"
+		(at 176.53 105.41 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "11ed5f87-db96-4364-9839-9bac15f817d9")
-	)
-	(label "SDC{slash}ASMS"
-		(at 157.48 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "1764f43d-869f-4be2-b2c8-205462a7cd0b")
+		(uuid "165d7402-3b1d-439f-8695-432f84c01c57")
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
-		(at 157.48 39.37 180)
-		(fields_autoplaced yes)
+		(at 176.53 113.03 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "204e5ef9-c7ef-46e2-8e39-de15cacafc30")
-	)
-	(label "PC1"
-		(at 157.48 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "21857a52-0a3f-49bb-8643-9002000a67ef")
-	)
-	(label "PUMP1"
-		(at 157.48 92.71 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2580f0c1-66d8-4b7f-a6cd-119635121c15")
-	)
-	(label "PC4"
-		(at 157.48 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "289e9cee-960d-4829-9475-81b6d0b652f0")
-	)
-	(label "INVERTER 2"
-		(at 157.48 130.81 180)
-=======
-		(uuid "16108037-0710-4d04-bc92-c3756b45b174")
-	)
-	(label "INVERTER 2"
-		(at 157.48 105.41 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-<<<<<<< Updated upstream
-		(uuid "2b20857c-ad45-4ac3-888f-b27e242cb8c4")
-=======
-		(uuid "176312df-3c1b-43bd-a565-17028f417c56")
-	)
-	(label "TSAL{slash}HV"
-		(at 157.48 49.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "225d5ee8-519d-4874-93ed-dfcf459699f8")
->>>>>>> Stashed changes
+		(uuid "16e6a851-f885-4260-a502-f8276a19c88c")
 	)
 	(label "PUMP2"
 		(at 82.55 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2697,56 +3026,28 @@
 		)
 		(uuid "3120c068-50d8-42d7-b4c9-70e8fd819cd2")
 	)
-<<<<<<< Updated upstream
-	(label "PC1"
-		(at 157.48 62.23 180)
-		(fields_autoplaced yes)
+	(label "CAN_L"
+		(at 176.53 92.71 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "3392ce08-dfa5-4620-ab27-10aef02a4ba7")
+		(uuid "31698203-f327-4758-924c-882e7a08952b")
 	)
-	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 157.48 118.11 180)
-		(fields_autoplaced yes)
+	(label "SDC{slash}ASMS"
+		(at 176.53 115.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "359c5156-2d3c-41d2-84e5-d3647a53f16f")
+		(uuid "35645977-83f6-43e9-95c0-0725869a9536")
 	)
-	(label "FBOX"
-		(at 157.48 36.83 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "35e85356-1b80-4012-a196-b1720306e1ba")
-	)
-	(label "FAN2"
-		(at 157.48 105.41 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "36aab0d1-5843-408a-9d94-47c3728ad2e8")
-	)
-=======
->>>>>>> Stashed changes
 	(label "INVERTER 2"
 		(at 82.55 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2755,75 +3056,28 @@
 		)
 		(uuid "3981bd66-6fab-4c7a-9080-65ccb95ec178")
 	)
-	(label "PC4"
-<<<<<<< Updated upstream
-		(at 157.48 82.55 180)
-=======
-		(at 157.48 133.35 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+	(label "FBOX"
+		(at 176.53 59.69 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "3cf5a363-21f5-4e3d-9738-7d86b7e22c22")
-	)
-	(label "FAN1"
-		(at 157.48 85.09 180)
-=======
-		(uuid "422e0a71-e109-4ec5-98d6-403b758abc6f")
-	)
-	(label "BRAKE{slash}IR{slash}AIR"
-		(at 157.48 62.23 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-<<<<<<< Updated upstream
-		(uuid "3f3e978f-85e9-4bb0-8599-c2031ebf2e98")
-	)
-	(label "INVERTER 2"
-		(at 157.48 128.27 180)
-=======
-		(uuid "456f9766-2fad-4b8c-b889-d6448b42b73f")
+		(uuid "45a99a3c-bc17-4138-9daf-9950df1be0f8")
 	)
 	(label "PC4"
-		(at 157.48 130.81 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+		(at 176.53 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "41791d1a-1391-4c71-ac56-6923ce53c3aa")
-=======
-		(uuid "46edf3f5-e2a3-4f1d-9fcf-3f4c39a1444e")
-	)
-	(label "PUMP2"
-		(at 157.48 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4be99c09-c78b-4078-a600-a6db9a189d91")
->>>>>>> Stashed changes
+		(uuid "4ffb6b31-4127-4dde-ae88-961b6c6a1447")
 	)
 	(label "SDC{slash}ASMS"
 		(at 82.55 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2832,24 +3086,8 @@
 		)
 		(uuid "50f42d10-ac56-4f22-8ce8-6d80cc476dce")
 	)
-<<<<<<< Updated upstream
-	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-=======
-	(label "SDC{slash}ASMS"
->>>>>>> Stashed changes
-		(at 157.48 115.57 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "54038244-0a3b-4475-a668-1add4579c411")
-	)
 	(label "INVERTER 1"
 		(at 82.55 113.03 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2860,7 +3098,6 @@
 	)
 	(label "PC2"
 		(at 82.55 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2869,70 +3106,18 @@
 		)
 		(uuid "5f61e4ec-19f8-4cc1-82ed-333de77bb11a")
 	)
-	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-<<<<<<< Updated upstream
-		(at 157.48 123.19 180)
-=======
-		(at 157.48 54.61 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-<<<<<<< Updated upstream
-		(uuid "618fc229-f952-4e86-9500-e3e5c7688ad6")
-	)
 	(label "INVERTER 1"
-		(at 157.48 120.65 180)
-=======
-		(uuid "603a26f5-42ac-416b-9b25-41c3161759a3")
-	)
-	(label "PC3"
-		(at 157.48 74.93 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+		(at 176.53 100.33 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "6273a04d-02e3-4b03-baba-2cdb0d680a20")
-	)
-	(label "PC2"
-=======
-		(uuid "653d6e01-6d12-4084-b757-0ea0b88ae059")
-	)
-	(label "FAN1"
-		(at 157.48 80.01 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "65ea8caa-31ad-4eaf-9899-8cbc2ae08c45")
-	)
-	(label "PC1"
->>>>>>> Stashed changes
-		(at 157.48 69.85 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "6824eaab-59fc-40ca-93c9-8903cb9c12b4")
+		(uuid "6acd6928-2e55-47f2-b0f0-f7b5991bb699")
 	)
 	(label "PC1"
 		(at 82.55 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2941,76 +3126,38 @@
 		)
 		(uuid "6d5ebd2e-c461-4376-a612-b6b361891a7b")
 	)
-<<<<<<< Updated upstream
-	(label "PC3"
-		(at 157.48 74.93 180)
-=======
-	(label "PUMP1"
-		(at 157.48 82.55 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+	(label "GND"
+		(at 176.53 90.17 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "719c9787-a852-40a2-bbfd-f258e11b3420")
-	)
-	(label "PC2"
-		(at 157.48 67.31 180)
-=======
-		(uuid "715008c6-027b-477f-a1d1-acdaf602d235")
+		(uuid "74f98536-d955-40a2-a648-c51007862f78")
 	)
 	(label "INVERTER 2"
-		(at 157.48 57.15 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+		(at 176.53 57.15 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "7218e2cb-967f-4726-b22a-fdfaa6fa630f")
+		(uuid "762afab0-eae0-44d2-8ce8-60864d600819")
 	)
-	(label "FAN1"
-		(at 157.48 87.63 180)
-=======
-		(uuid "71c5a3db-807e-49ff-b36b-d8306da39fc3")
-	)
-	(label "PUMP1"
-		(at 157.48 41.91 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+	(label "TSAL{slash}HV"
+		(at 176.53 49.53 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "7990a593-74a8-48c2-aa1a-9999660768b9")
-=======
-		(uuid "7446a70d-f840-41a8-af35-a3970341282d")
-	)
-	(label "DASH"
-		(at 157.48 120.65 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "77906984-6fab-4f1d-8159-330157096c95")
->>>>>>> Stashed changes
+		(uuid "77db3bb6-8a31-4325-ab64-92ed06b29f15")
 	)
 	(label "PC3"
 		(at 82.55 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3019,9 +3166,18 @@
 		)
 		(uuid "79a3f1f2-ee08-4e07-8e18-09f7909d5e24")
 	)
+	(label "SDC{slash}ASMS"
+		(at 176.53 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d45b86c-9627-48ee-b76c-4c4735254d65")
+	)
 	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
 		(at 82.55 115.57 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3030,72 +3186,68 @@
 		)
 		(uuid "7e4d37ee-2e5c-4008-8130-5654df5d5ee1")
 	)
-<<<<<<< Updated upstream
-	(label "TSAL{slash}HV"
-		(at 157.48 113.03 180)
-		(fields_autoplaced yes)
+	(label "SDC{slash}ASMS"
+		(at 176.53 64.77 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "879d1e14-1fc8-4606-a7ba-079c08423c91")
+		(uuid "8316a9b9-8859-4546-b776-7d1ca778521a")
 	)
-	(label "BRAKE{slash}IR{slash}AIR"
-		(at 157.48 44.45 180)
-		(fields_autoplaced yes)
+	(label "DASH"
+		(at 176.53 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "8995e977-bfd1-4713-9a23-e1d0a7f7c9f8")
+		(uuid "84c96ce4-8b77-4753-804f-795a300064ca")
+	)
+	(label "PC2"
+		(at 176.53 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "84e28c6c-5b0e-4419-b219-750e560f8439")
+	)
+	(label "PC3"
+		(at 176.53 128.27 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "879ded9a-d5e0-4ab9-94f4-ce5c2a8a2030")
 	)
 	(label "PUMP2"
-=======
-	(label "INVERTER 1"
->>>>>>> Stashed changes
-		(at 157.48 100.33 180)
-		(fields_autoplaced yes)
+		(at 176.53 85.09 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "8d36756c-97a7-4f4c-b5bd-4a0f0999eda6")
-=======
-		(uuid "7f9476c6-2bf1-45fc-bb45-436ae2f05bf2")
+		(uuid "8917fb05-9d54-4547-b3f9-172c36149dbf")
 	)
-	(label "PC4"
-		(at 157.48 77.47 180)
-		(fields_autoplaced yes)
+	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
+		(at 176.53 97.79 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "86b8df3c-5f6c-4b2f-ad14-301c0999586e")
-	)
-	(label "FBOX"
-		(at 157.48 107.95 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8d17e925-edee-416f-a99e-668ab4c66a3c")
->>>>>>> Stashed changes
+		(uuid "97c9292a-c2a2-47e0-909c-bbc5a7ed1545")
 	)
 	(label "FAN2"
 		(at 82.55 59.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3104,84 +3256,78 @@
 		)
 		(uuid "99b841d3-19f3-43e5-8ca4-d01acb7c08dc")
 	)
-<<<<<<< Updated upstream
-	(label "PUMP1"
-		(at 157.48 90.17 180)
-		(fields_autoplaced yes)
+	(label "PC1"
+		(at 176.53 123.19 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "ae93a8d3-07ee-48a5-b113-41d372cfc4a6")
-	)
-	(label "SDC{slash}ASMS"
-		(at 157.48 49.53 180)
-=======
-	(label "SDC{slash}ASMS"
-		(at 157.48 64.77 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-<<<<<<< Updated upstream
-		(uuid "b17e21af-07e5-4823-85fc-a4515fce6be2")
-=======
-		(uuid "9ed46aa8-3a0b-4175-aa45-a85b5c3f9566")
-	)
-	(label "TSAL{slash}HV"
-		(at 157.48 95.25 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a8bdea59-5a93-4964-8d17-68bdd364505c")
-	)
-	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
-		(at 157.48 52.07 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a900dc16-323e-4cb7-b59c-c143e7b1d197")
+		(uuid "9a37846b-3a25-49fa-9918-73844958550c")
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
-		(at 157.48 113.03 180)
-		(fields_autoplaced yes)
+		(at 176.53 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "abcd5830-b1f1-43f2-991f-a552cd1a206a")
+		(uuid "a50220df-d82d-4e62-a8fb-fc004ad261c5")
 	)
-	(label "FAN2"
-		(at 157.48 46.99 180)
-		(fields_autoplaced yes)
+	(label "PC1"
+		(at 176.53 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "b197079b-f7ce-4c2b-a6fc-2ed3c9450955")
->>>>>>> Stashed changes
+		(uuid "a751251f-f2d6-4cd4-a32e-74b41eacaecd")
+	)
+	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
+		(at 176.53 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b1a84bad-f19d-4340-ac14-9e73bf0f50ae")
+	)
+	(label "PUMP1"
+		(at 176.53 41.91 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b78ad2f9-a578-465f-9a1e-a4685d39500e")
+	)
+	(label "BRAKE{slash}IR{slash}AIR"
+		(at 176.53 62.23 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b7fc77f3-f6a2-4c75-8cc0-8a794960a4cd")
+	)
+	(label "REARBOX{slash}DIAGPORT{slash}BRAKE_L"
+		(at 176.53 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b8ca1e05-b865-4283-9075-5a4082e8191f")
 	)
 	(label "DASH"
 		(at 82.55 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3190,75 +3336,88 @@
 		)
 		(uuid "baa25744-c247-4b0f-9bb8-453940fd30e6")
 	)
-<<<<<<< Updated upstream
-	(label "FAN2"
-=======
-	(label "INVERTER 1"
->>>>>>> Stashed changes
-		(at 157.48 102.87 180)
-		(fields_autoplaced yes)
+	(label "CAN_H"
+		(at 76.2 146.05 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "c0394e97-95e7-4462-a98e-408806bff5b3")
+		(uuid "be1ee8e6-851c-4aa5-b301-9095132de305")
 	)
-	(label "DASH"
-		(at 157.48 54.61 180)
-=======
-		(uuid "bbd517e9-710a-45cc-8d76-f91f355a33a8")
+	(label "FAN2"
+		(at 176.53 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c025b509-942f-499b-9a6d-88c67def8879")
 	)
 	(label "PUMP1"
-		(at 157.48 85.09 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+		(at 176.53 82.55 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "c5f4cc36-928b-4b7e-bc46-0b1e30c033ed")
+		(uuid "d175671d-a1fa-40cf-868a-0ce5371eb009")
 	)
-	(label "SDC{slash}ASMS"
-		(at 157.48 52.07 180)
-=======
-		(uuid "bf0841f2-dd41-40f4-b7e2-5ea5b42ce9b6")
-	)
-	(label "FBOX"
-		(at 157.48 59.69 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+	(label "INVERTER 1"
+		(at 176.53 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "c9b21f6c-c097-4451-9a3b-c0963fef7489")
-=======
-		(uuid "c91b6745-5943-4d34-91f8-7e912593712d")
+		(uuid "d4910a38-7355-4f6f-b47c-47b8445db6a0")
 	)
-	(label "PC3"
-		(at 157.48 128.27 180)
-		(fields_autoplaced yes)
+	(label "CAN_H"
+		(at 176.53 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "d9f5bb5c-a1a5-41f2-8b9a-fba9e1b251e5")
->>>>>>> Stashed changes
+		(uuid "d55deff5-fb98-4c2f-b4b6-1b69c066de58")
+	)
+	(label "FAN1"
+		(at 176.53 39.37 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d669022c-6e58-4cb2-bb40-1b4095a5a65c")
+	)
+	(label "PC4"
+		(at 176.53 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "da98dc73-9ab9-4b74-93cc-89383ad0989a")
+	)
+	(label "TSAL{slash}HV"
+		(at 176.53 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "db7b3b9f-7a39-473a-95a8-c2e337c7c74e")
 	)
 	(label "PUMP1"
 		(at 82.55 64.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3267,23 +3426,18 @@
 		)
 		(uuid "dcfd60b0-5f21-4b98-a886-8cd1f157aa21")
 	)
-<<<<<<< Updated upstream
-	(label "PUMP1"
-		(at 157.48 95.25 180)
-		(fields_autoplaced yes)
+	(label "PC4"
+		(at 176.53 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "e10a2843-3ef2-45b7-bb47-ef79fc980fea")
+		(uuid "e388220e-2f15-44dd-9382-c7c7cdbe842e")
 	)
-=======
->>>>>>> Stashed changes
 	(label "TSAL{slash}HV"
 		(at 82.55 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3292,62 +3446,38 @@
 		)
 		(uuid "e62d8298-8fe6-4f12-99bb-5ee10ef409e3")
 	)
-<<<<<<< Updated upstream
-	(label "FAN2"
-		(at 157.48 107.95 180)
-=======
-	(label "PC1"
-		(at 157.48 123.19 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
+	(label "FBOX"
+		(at 176.53 107.95 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-<<<<<<< Updated upstream
-		(uuid "edaec5b6-bf6c-471f-9278-dbfa507bc65d")
+		(uuid "e7498284-e25b-4e85-b896-b4a3dabab3de")
 	)
-	(label "BRAKE{slash}IR{slash}AIR"
-		(at 157.48 46.99 180)
-		(fields_autoplaced yes)
+	(label "PC2"
+		(at 176.53 125.73 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "edfd5b95-af71-4eae-80a2-d77857f6b8cd")
+		(uuid "e8c04861-ed6c-42b5-a194-25c947a443fb")
 	)
-	(label "PC4"
-		(at 157.48 80.01 180)
-		(fields_autoplaced yes)
+	(label "FAN1"
+		(at 176.53 80.01 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "eec7d0cb-6411-43a0-9383-e4410f23c1ba")
-	)
-	(label "PUMP2"
-		(at 157.48 97.79 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "ef4a662e-8f79-4bbb-a10e-58704fc378e0")
-=======
-		(uuid "eb0b945b-f6c0-4a03-9591-a17c08b805dd")
->>>>>>> Stashed changes
+		(uuid "f25b6dc1-da42-4a57-bc15-e215706ea469")
 	)
 	(label "BRAKE{slash}IR{slash}AIR"
 		(at 82.55 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3356,40 +3486,28 @@
 		)
 		(uuid "f32a7c82-f5fc-45b4-8890-999ab20530ba")
 	)
-<<<<<<< Updated upstream
-	(label "INVERTER 1"
-		(at 157.48 125.73 180)
-=======
-	(label "SDC{slash}ASMS"
-		(at 157.48 67.31 180)
->>>>>>> Stashed changes
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-<<<<<<< Updated upstream
-		(uuid "f4f56b55-5917-4c69-b502-043ca8006262")
-	)
 	(label "PC3"
-		(at 157.48 72.39 180)
-		(fields_autoplaced yes)
+		(at 176.53 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "f886f57a-fac5-4218-ac04-67cf6b9f3578")
-=======
-		(uuid "f3cbec80-14af-4fe8-9621-6ce69252b634")
->>>>>>> Stashed changes
+		(uuid "f36891b6-2b2d-4ee4-b932-1afe73acbd42")
+	)
+	(label "GND"
+		(at 176.53 44.45 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fa0d24d6-a99d-4134-89c2-2bbea6b9ce36")
 	)
 	(label "FBOX"
 		(at 82.55 107.95 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3399,8 +3517,74 @@
 		(uuid "fe47c51c-8df4-4568-a875-7fff4c620638")
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 74.93 156.21 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "22c2c6be-0514-4d50-a12a-cacbff787fa8")
+		(property "Reference" "#PWR01"
+			(at 74.93 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 74.93 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7ca18750-d306-4ccf-8583-65393b6df8a2")
+		)
+		(instances
+			(project "PDMv2_PART2"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:TVP00WCI17-02P")
-		(at 165.1 85.09 180)
+		(at 184.15 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3409,7 +3593,7 @@
 		(fields_autoplaced yes)
 		(uuid "3f7a0b94-f3cd-43a6-a282-b3098ef7e0d9")
 		(property "Reference" "J1"
-			(at 171.45 83.8199 0)
+			(at 190.5 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3417,8 +3601,8 @@
 				(justify right)
 			)
 		)
-		(property "Value" "TVP00WCI17-02P "
-			(at 171.45 86.3599 0)
+		(property "Value" "TVP00WCI17-02P"
+			(at 190.5 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3427,7 +3611,7 @@
 			)
 		)
 		(property "Footprint" "Connector:tvp00wci17-02p"
-			(at 165.1 85.09 0)
+			(at 184.15 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3436,7 +3620,7 @@
 			)
 		)
 		(property "Datasheet" "https://4donline.ihs.com/images/VipMasterIC/IC/SOSU/SOSU-S-A0010748667/SOSU-S-A0010748667-1.pdf?hkey=EF798316E3902B6ED9A73243A3159BB0"
-			(at 165.1 85.09 0)
+			(at 184.15 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3444,8 +3628,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "TVP00WCI17-02P "
-			(at 165.1 85.09 0)
+		(property "Description" "TVP00WCI17-02P"
+			(at 184.15 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3701,6 +3885,88 @@
 			(project "PDMv2_PART2"
 				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x06")
+		(at 87.63 148.59 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "92866b1b-f9d5-43b9-9ee1-6e5eceb65c18")
+		(property "Reference" "J4"
+			(at 90.17 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x06"
+			(at 90.17 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_IDC:IDC-Header_2x03_P2.54mm_Vertical"
+			(at 87.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 87.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 87.63 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "6"
+			(uuid "879ff344-c160-43b8-9091-aef55408de3b")
+		)
+		(pin "3"
+			(uuid "32782519-97e9-45ed-ae3b-1e1a02ec73fa")
+		)
+		(pin "2"
+			(uuid "7bfbe9bf-e281-4752-9a5c-ea114619c902")
+		)
+		(pin "4"
+			(uuid "0f637136-da12-48e9-9720-375926d50c45")
+		)
+		(pin "1"
+			(uuid "f3ffc600-debf-4686-8ef4-111648167861")
+		)
+		(pin "5"
+			(uuid "e57b30e3-e0d8-435c-90c0-14128c3e44a5")
+		)
+		(instances
+			(project "PDMv2_PART2"
+				(path "/b652b05a-4e3d-4ad1-b032-18886abe7d45"
+					(reference "J4")
 					(unit 1)
 				)
 			)
